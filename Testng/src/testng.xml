@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameterization Test Suite">
+	<test name="Testing Parameter">
+	<parameter name="url" value="https://www.google.com/gmail/about/"/>
+		<classes>
+			<class name="com.parameter.parameter" />
+		</classes>
+	</test>
+</suite>
